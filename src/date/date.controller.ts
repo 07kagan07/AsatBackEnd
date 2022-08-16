@@ -31,6 +31,6 @@ export class DateController {
   deleteDate(@Param('ids') body: deleteDateDto) {
     this.dateService.deleteDate(body);
 
-    return 'Başarılı';
+    return 'Başarılısın';
   }
 }
